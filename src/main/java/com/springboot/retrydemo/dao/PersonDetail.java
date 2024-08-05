@@ -15,9 +15,9 @@ public class PersonDetail {
 
     static
     {
-        personData.put("123"+"150550-01",PersonDetailDTO.builder().name("Suzy").age("23").individualId("123").
+        personData.put("123"+"_"+"150550-01",PersonDetailDTO.builder().name("Suzy").age("23").individualId("123").
                 groupId("150550-01").build());
-        personData.put("456"+"150550-01",PersonDetailDTO.builder().name("Peppa").age("25").individualId("456").
+        personData.put("456"+"_"+"150550-01",PersonDetailDTO.builder().name("Peppa").age("25").individualId("456").
                 groupId("150550-01").build());
 
     }
